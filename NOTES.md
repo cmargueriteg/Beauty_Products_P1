@@ -45,13 +45,6 @@ Like/save breed to list
 
 Features
 
-Form to input life/needs/wants (submit event, post) NEED
-List out wish breeds on load (DOMContent loaded event , get) NEED 
-Like breeds to add the wishlist (click, event, patch) NEED
-Edit liftestyle/want/need (change/edit/submit, patch)
-Delete from wishlist (click)
-Search breeds (submit)
-Comment breeds (submit, post)
 
 
 Come up with MVP 
@@ -59,21 +52,8 @@ Come up with MVP
 
 
 
-Form to input life/needs/wants (submit)
-List out wish breeds (Dom content loaded)
-Delete breeds from list (click)
-
-
-
-
 List stretch goals 
 
-
-
-Edit life form (submit)
-Search breeds (submit)
-Like breed (click)
-Comment breed (submit) 
 
 
 GIT
