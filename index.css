@@ -1,5 +1,5 @@
 body { 
-    background-color: lightgrey;
+    background-color: rgb(106, 129, 116);
     margin: 0px;
     
 
@@ -7,29 +7,35 @@ body {
 
 .introhead {
   font-size: 60px;
-  top: 10px;
-  width: 700px;
-  margin-top: 70px;
-  margin-left: 150px;
-  background: rgb(106, 129, 116);
-  padding: 10px;
+  bottom: 100px;
+  background: rgb(106, 129, 116); 
+  padding: 20px;
   word-spacing: 8px;
+  text-align: center;
+  height: 100px;
     
 }
 
 .pagedesc {
-    border: 3px solid black;
+    /* border: 3px solid black;
+    border-start-end-radius: 5px; */
     background-color: rgb(106, 129, 116);
-    padding-top: 50px;
+    /* padding-top: 50px;
     padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding-bottom: 50px;*/
+     padding-left: 80px; 
+     display: flex;
+    /* margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 7px;
+  margin-left: 50px; */
+  width: 1000px;
     text-align: center;
-    font-size: 20px;
-    margin-left: 10px
+    font-size: 50px; 
     
     
 }
+
 
 #info-card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -38,10 +44,12 @@ body {
   text-align: center;
   background-color: darkslategrey;
   border: 2px solid black;
-  margin-left:25%;
+  margin-left: 40%;
   padding:1px 16px;
   height:500px;
   overflow: scroll;
+  /* left: 50px */
+  
   
 
 }
@@ -52,6 +60,7 @@ body {
 
 #info-container {
   padding: 2px 16px;
+  left: 50px
   
   
 }
@@ -67,6 +76,7 @@ ul {
   position: fixed; /* Make it stick, even on scroll */
   bottom: 50px;
   top:50px;
+  border: 1px solid #555;
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
@@ -77,6 +87,7 @@ li a {
   padding: 8px 16px;
   text-decoration: none;
   text-transform: capitalize;
+  border-bottom: 1px solid #555;
 }
 
 li a.active {

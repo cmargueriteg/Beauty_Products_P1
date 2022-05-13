@@ -30,17 +30,6 @@ BRAINSTORM IDEAS/overview:
 
 
 
-Dog breed matcher!
-
-
-User inputs wants/needs and is matched to the dog breed recommended for them
-
-See pros/cons, life span, diet needs, grooming, training, personality, health issues
-Look up different breeds — search bar
-Comment under breed 
-Like/save breed to list
-
-
 
 
 Features
