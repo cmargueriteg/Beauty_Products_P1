@@ -14,10 +14,7 @@ function getPolish(){
   .then(resp => resp.json())
   .then(polishes => {
       polishes.map(polish => {
-         // brandList.innerHTML += `
-          //<li>
-          //  <a href="#" data-id="$polish.id}"> ${polish.brand}</a>
-           // </li>`
+         
            const li = document.createElement("li")
            const a = document.createElement("a")
            a.dataset.id= polish.id
